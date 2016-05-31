@@ -1,9 +1,14 @@
 /*
+* Therminator Box
+* [Thermal arduino incubator Box]
 
-GypsyLab AT - @gypsylab85
-gypsylabat.wordpress.com
-
-*  Grove modules (seeedstudio): Temprature and LDC Display RGB codes.
+* GSan
+* --
+* GypsyLab AT - @gypsylab85
+* gypsylabat.wordpress.com
+*
+*  Grove modules (seeedstudio): Temperature and LDC Display RGB codes.
+* https://github.com/Seeed-Studio/Grove_LCD_RGB_Backlight/archive/master.zip
 *  By: http://www.seeedstudio.com
 */
 #include <math.h>
@@ -75,4 +80,3 @@ int potRead =analogRead(pot);
  lcd.clear();
           
 }
-
