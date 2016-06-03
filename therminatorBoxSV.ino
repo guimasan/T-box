@@ -9,7 +9,7 @@
 *
 */
  
-#define TEMP 37 
+#define TEMP 37 //define temperature in Celsius scale
 
 float temperature;
  
