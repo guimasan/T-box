@@ -11,26 +11,27 @@
  
 #define TEMP 37 
 
-int a,b,c;
 float temperature;
-int B=3975;                  //B value of the thermistor
-float resistance;
  
-int peltier=3;
+
 int lm35=A0;
 int pot =A1;
+
 int ledR=13;
 int ledG=12;
 int ledB=11;
 
+int peltier=3;
+
 void setup()
 {
-  pinMode(peltier, OUTPUT);
-  pinMode(lm35, INPUT);
+ 
   pinMode(pot, INPUT);
+  pinMode(lm35, INPUT);
   pinMode(ledR, OUTPUT);
   pinMode(ledG, OUTPUT);
   pinMode(ledB, OUTPUT);
+  pinMode(peltier, OUTPUT);
   
     // initialize the serial communications:
     Serial.begin(9600);
